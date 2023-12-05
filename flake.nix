@@ -7,6 +7,10 @@
         path = ./nix-maturin;
         description = "maturin/pyo3 template via crane";
       };
+      nix-crane = {
+        path = ./nix-crane;
+        description = "rust template via crane";
+      };
     };
   };
 }
